@@ -6,7 +6,7 @@ public class ConcatPrimitives {
     float f = 2.0f;
     char c = 'H';
     boolean b = true;
-    String output = ("\t" + c + zero + s + i + " " + "world " + f + " " + b);
+    String output = ( c + zero + s + i + " " + "world " + f + " " + b);
     System.out.println(output);
     }
 }
