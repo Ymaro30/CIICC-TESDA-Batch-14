@@ -18,7 +18,7 @@ class B extends AbstractClass{
 
 class C extends AbstractClass {
     void abstractMethod() {
-        System.out.println("C`s implementation of abstractMethod.");
+    System.out.println("C`s implementation of abstractMethod.");
     }
 }
 
