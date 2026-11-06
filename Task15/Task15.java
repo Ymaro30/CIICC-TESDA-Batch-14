@@ -1,3 +1,5 @@
+package Task;
+
 
 
 interface Shape {
@@ -60,8 +62,8 @@ public class Task15 {
 
     public static void main(String[] args) {
         // Create instances of Circle and Rectangle
-        Circle circle = new Circle(10);
-        Rectangle rectangle = new Rectangle(10, 5);
+        Shape circle = new Circle(10);
+        Shape rectangle = new Rectangle(10, 5);
       
         System.out.println("--- Circle Details ---");
         System.out.println("Area: " + circle.calculateArea());
